@@ -24,5 +24,3 @@
 
 # Ignore application configuration
 /config/application.yml
-
-/app/views/layouts/application.html.erb
