@@ -13,7 +13,7 @@
     <p><%= image_tag(current_user.profile_image) %><p>
     <p><%= link_to "Sign out", signout_path, id: "sign_out" %><p></h1>
 <% else %>
-    <p><%= link_to "Sign in with Twitter", "http://localhost:3000/auth/twitter" %></p>
+    <p><%= link_to "Sign in with Twitter", "https://vast-spire-54623.herokuapp.com/auth/twitter" %></p>
 <% end %>
 
     <%= yield %>
